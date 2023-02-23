@@ -33,7 +33,8 @@
       }
     },
     "hyprland/window": {
-        "format": "{}"
+        "format": "{}",
+        "max-length": 40
     },
     "tray": {
         "spacing": 10
