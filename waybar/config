@@ -6,8 +6,18 @@
     "margin-right": 10,
     "spacing": 5, // Gaps between modules (4px)
     "modules-left": [ "cpu", "memory","battery"],
-    "modules-center": ["wlr/workspaces"],
-    "modules-right": ["custom/weather", "pulseaudio", "network",  "clock"],
+    "modules-center": ["wlr/workspaces", "hyprland/window"],
+    "modules-right": ["custom/weather", "hyprland/language", "pulseaudio", "network",  "clock"],
+    "hyprland/window": {
+      "format": "{}",
+      "separate-outputs": true
+    },
+    "hyprland/language": {
+        "format": "{}",
+        "format-en": "EN",
+        "format-bg": "BG",
+        "keyboard-name": "apple-internal-keyboard-/-trackpad"
+    },
     "wlr/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
