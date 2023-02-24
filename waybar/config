@@ -5,8 +5,8 @@
     "margin-bottom": 0,
     "margin-right": 10,
     "spacing": 5, // Gaps between modules (4px)
-    "modules-left": [ "cpu", "memory","battery"],
-    "modules-center": ["wlr/workspaces", "hyprland/window"],
+    "modules-left": ["wlr/workspaces", "cpu", "memory","battery"],
+    "modules-center": ["hyprland/window"],
     "modules-right": ["custom/weather", "hyprland/language", "pulseaudio", "network",  "clock"],
     "hyprland/window": {
       "format": "{}",
