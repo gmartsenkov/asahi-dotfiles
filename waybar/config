@@ -16,6 +16,7 @@
         "format": "{}",
         "format-en": "EN",
         "format-bg": "BG",
+        "on-click": "hyprctl switchxkblayout apple-internal-keyboard-/-trackpad next",
         "keyboard-name": "apple-internal-keyboard-/-trackpad"
     },
     "wlr/workspaces": {
